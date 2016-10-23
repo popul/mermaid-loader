@@ -1,0 +1,17 @@
+{
+  "name": "mermaid-loader",
+  "version": "1.0.0",
+  "description": "mermaid diagram loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "mermaid",
+    "plugin"
+  ],
+  "author": "Paul Musso <paul@musso.io>",
+  "license": "MIT"
+}
