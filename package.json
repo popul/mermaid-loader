@@ -4,7 +4,8 @@
   "description": "mermaid diagram loader for webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec",
+    "phantom": "phantomjs phantom-mermaid.js \"sequenceDiagram\nA->> B: Query\" "
   },
   "keywords": [
     "webpack",
@@ -13,5 +14,16 @@
     "plugin"
   ],
   "author": "Paul Musso <paul@musso.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^0.2.16",
+    "mermaid": "^6.0.0",
+    "object-assign": "^4.1.0",
+    "phantomjs": "^2.1.7"
+  },
+  "devDependencies": {
+    "html-loader": "^0.4.4",
+    "mocha": "^3.1.2",
+    "webpack": "^1.13.2"
+  }
 }
