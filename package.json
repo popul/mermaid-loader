@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec",
-    "phantom": "phantomjs phantom-mermaid.js \"sequenceDiagram\nA->> B: Query\" ",
     "example": "webpack-dev-server --config example/webpack.config.js --progress --colors --hot --host 0.0.0.0"
   },
   "keywords": [
@@ -15,6 +14,10 @@
     "plugin"
   ],
   "author": "Paul Musso <paul@musso.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/popul/mermaid-loader"
+  },
   "license": "MIT",
   "dependencies": {
     "loader-utils": "^0.2.16",
