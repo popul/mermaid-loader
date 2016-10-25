@@ -21,8 +21,7 @@ B->> A: Forward response
 ```
 
 Mermaid loader outputs this png:
-
-![http://imgur.com/Bq9w9hG](http://imgur.com/Bq9w9hG)
+![http://i.imgur.com/Bq9w9hG.png](http://i.imgur.com/Bq9w9hG.png)
 
 ## Installation
 
