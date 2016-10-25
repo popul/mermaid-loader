@@ -3,6 +3,7 @@ mermaid-loader
 
 [![npm status](https://nodei.co/npm/mermaid-loader.svg?downloads=true&stars=true)](https://npmjs.org/package/mermaid-loader)
 
+[![Travis](https://travis-ci.org/popul/mermaid-loader.svg)](https://travis-ci.org/popul/mermaid-loader.svg)
 [![dependencies](https://david-dm.org/popul/mermaid-loader.svg)](http://david-dm.org/popul/mermaid-loader)
 [![devDependency Status](https://david-dm.org/popul/mermaid-loader/dev-status.svg)](https://david-dm.org/popul/mermaid-loader#info=devDependencies)
 
