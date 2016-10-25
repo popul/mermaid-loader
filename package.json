@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec",
-    "phantom": "phantomjs phantom-mermaid.js \"sequenceDiagram\nA->> B: Query\" "
+    "phantom": "phantomjs phantom-mermaid.js \"sequenceDiagram\nA->> B: Query\" ",
+    "example": "webpack-dev-server --config example/webpack.config.js --progress --colors --hot --host 0.0.0.0"
   },
   "keywords": [
     "webpack",
@@ -19,11 +20,14 @@
     "loader-utils": "^0.2.16",
     "mermaid": "^6.0.0",
     "object-assign": "^4.1.0",
-    "phantomjs": "^2.1.7"
+    "phantomjs-prebuilt": "^2.1.13"
   },
   "devDependencies": {
-    "html-loader": "^0.4.4",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "chai": "^3.5.0",
     "mocha": "^3.1.2",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
   }
 }
